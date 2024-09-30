@@ -1,8 +1,6 @@
-import { useState } from 'react'
 import './App.css'
 import { TonConnectButton } from '@tonconnect/ui-react'
 import { useHelloWorldContract } from './hooks/useHelloWorldContract'
-import { address } from '@ton/core'
 import { useTonConnect } from './hooks/useTonConnect'
 
 
